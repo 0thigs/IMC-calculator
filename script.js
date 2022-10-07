@@ -1,6 +1,6 @@
 function Calcular() { 
-    const peso = document.getElementById("input-peso").value
-    const altura = document.getElementById("input-altura").value
+    const peso = document.getElementById("peso").value
+    const altura = document.getElementById("altura").value
     const resultado = document.getElementById("resultado")
 
     //calculando o imc

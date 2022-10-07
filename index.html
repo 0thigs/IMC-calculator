@@ -9,25 +9,30 @@
     <title>IMC Calculator</title>
 </head>
 <body>
-    <div class="container">
-        <h2 class="main-text">IMC Calculator</h2>
-        <div class="text-container">
-            <div id="altura-txt">
-                Altura(m):
-            </div>
-            <input type="text" id="input-altura" placeholder="Insira sua Altura">   
 
-            <div id="peso-txt">
-                Peso(kg):
+    <div class="container">
+        <div class="title">
+            <h1>IMC Calculator</h1>
+        </div>
+        <div class="separator">
+            <div class="container-secundario">
+                <p class="text">Altura(m):</p>
+                <input type="number" class="input" id="altura" placeholder="Insira sua Altura">
             </div>
-            <input type="text" id="input-peso" placeholder="Insira seu Peso", required>
-            <div id="center">
-                <button id="btn" onclick="Calcular()">
-                    Calcular
-                </button>
+            <div class="container-secundario">
+                <p class="text">Peso(kg):</p>
+                <input type="number" class="input" id="peso" placeholder="Insira seu Peso">
             </div>
-            <div class="resultado" id="resultado"></div>
+            <div class="btn-c">
+                <input type="button" id="btn" value="Calcular" onclick="Calcular()">
+            </div>
+            <div class="result-c">
+                <p id="resultado"></p>
+            </div>
+
         </div>
     </div>
+
+
 </body>
 </html>
